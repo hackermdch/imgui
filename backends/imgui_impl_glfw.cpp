@@ -635,7 +635,7 @@ static bool ImGui_ImplGlfw_Init(GLFWwindow* window, bool install_callbacks, Glfw
 
     // Update monitors the first time (note: monitor callback are broken in GLFW 3.2 and earlier, see github.com/glfw/glfw/issues/784)
     ImGui_ImplGlfw_UpdateMonitors();
-    glfwSetMonitorCallback(ImGui_ImplGlfw_MonitorCallback);
+    // glfwSetMonitorCallback(ImGui_ImplGlfw_MonitorCallback);
 
     // Set platform dependent data in viewport
     ImGuiViewport* main_viewport = ImGui::GetMainViewport();
